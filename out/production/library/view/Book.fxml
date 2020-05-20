@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="bookForm" prefHeight="823.0" prefWidth="1185.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BookController">
+   <children>
+      <AnchorPane layoutY="-3.0" prefHeight="823.0" prefWidth="409.0" style="-fx-background-color: black;">
+         <children>
+            <JFXTextField fx:id="isbn" layoutX="46.0" layoutY="164.0" prefHeight="29.0" prefWidth="319.0" promptText="ISBN">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="title" layoutX="41.0" layoutY="292.0" prefHeight="29.0" prefWidth="328.0" promptText="TITLE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="author" layoutX="41.0" layoutY="444.0" prefHeight="29.0" prefWidth="328.0" promptText="AUTHOR">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font></JFXTextField>
+            <JFXTextField fx:id="edition" layoutX="42.0" layoutY="587.0" prefHeight="29.0" prefWidth="328.0" promptText="EDITION">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font></JFXTextField>
+            <Button fx:id="btnSave" layoutX="41.0" layoutY="695.0" mnemonicParsing="false" onAction="#btnSaveOnAction" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: red;" text="Save" textFill="#fcfafa" />
+            <Button fx:id="btnAdd" layoutX="241.0" layoutY="38.0" mnemonicParsing="false" onAction="#btnAddOnAction" prefHeight="31.0" prefWidth="128.0" style="-fx-background-color: blue;" text="+Book" textFill="#fffefe" />
+            <Button fx:id="btnDelete" layoutX="241.0" layoutY="695.0" mnemonicParsing="false" onAction="#btnDeleteOnAction" prefHeight="31.0" prefWidth="101.0" style="-fx-background-color: blue;" text="Delete" textFill="#f8f7f7" />
+            <FontAwesomeIconView fx:id="faHome" fill="#fcf8f8" glyphName="HOME" layoutX="46.0" layoutY="70.0" onMouseClicked="#homeClicked" size="60.0" text="" wrappingWidth="34.0" />
+         </children>
+      </AnchorPane>
+      <TableView fx:id="bkTbl" layoutX="443.0" layoutY="244.0" prefHeight="437.0" prefWidth="698.0">
+        <columns>
+          <TableColumn fx:id="colIsbn" prefWidth="143.0" text="ISBN" />
+          <TableColumn fx:id="colTit" prefWidth="155.0" text="TITLE" />
+            <TableColumn fx:id="colAuth" prefWidth="193.0" text="AUTHOR" />
+            <TableColumn fx:id="colEdi" prefWidth="206.0" text="EDITION" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtSearch" layoutX="443.0" layoutY="178.0" onKeyReleased="#txtSerAction" prefHeight="31.0" prefWidth="698.0" promptText="SEARCH" />
+      <AnchorPane layoutX="409.0" prefHeight="121.0" prefWidth="776.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="201.0" layoutY="24.0" prefHeight="76.0" prefWidth="377.0" text="MANAGE BOOKS" textFill="#fafafa">
+               <font>
+                  <Font name="System Bold" size="44.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Button fx:id="btnReport" layoutX="1031.0" layoutY="695.0" mnemonicParsing="false" onAction="#btnReportOnAction" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: maroon;" text="Show Report" textFill="#f8f7f7" />
+   </children>
+</AnchorPane>

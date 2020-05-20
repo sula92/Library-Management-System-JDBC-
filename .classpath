@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Sula/Desktop/Libraries/jfoenix/jfoenix-1.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sula/Desktop/Libraries/fontawesome/fontawesomefx-8.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sula/Desktop/Libraries/mysql connector/mysql-connector-java-8.0.17.jar"/>
+	<classpathentry kind="output" path="out/production/library"/>
+</classpath>

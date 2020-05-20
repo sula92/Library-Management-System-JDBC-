@@ -1,0 +1,66 @@
+.hover_border:hover{
+    -fx-border-color: #0fbcf9;
+    -fx-border-width: 0px,0px,0px,2px;
+    -fx-background-color: blue;
+
+
+}
+
+.cursor_hand{
+
+    -fx-cursor: hand;
+}
+
+.back{
+    -fx-background-image: url("/assets/lib.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:1916px 993px ;
+
+}
+.border{
+
+    -fx-border-color: blue;
+    -fx-border-style: 2px solid;
+}
+
+.img{
+
+    -fx-pref-height: 40px;
+    -fx-pref-width:60px;
+
+}
+
+
+.myButton {
+    -fx-background-color:transparent;
+}
+
+.myButton:hover {
+    -fx-opacity: 0.7;
+    -fx-cursor: hand;
+    -fx-border-color: blue;
+    -fx-border-style: 2px solid;
+}
+.back2{
+    -fx-background-image: url("/asset/car.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size:1800px 920px ;
+
+}
+
+#btnSave{
+    -fx-background-color: #218838;
+    -fx-text-fill: white;
+}
+
+#btnDelete{
+    -fx-background-color: #ffc107;
+}
+
+.table-row-cell:selected{
+    -fx-background-color:linear-gradient(from 0% 0% to 100% 100%, white 0%, #007bff 50%, white 100%);
+}
+
+.table-row-cell:selected .table-cell{
+    -fx-text-fill: black !important;
+}
