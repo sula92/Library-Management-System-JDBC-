@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="1st com">
-      <change afterPath="$PROJECT_DIR$/Required Libraries/fontawesomefx-8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Required Libraries/jasper Report lib/commons-beanutils-1.7.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Required Libraries/jasper Report lib/commons-collections-2.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Required Libraries/jasper Report lib/commons-digester-1.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Required Libraries/jasper Report lib/commons-logging-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Required Libraries/jasper Report lib/jasperreports-6.9.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Required Libraries/jfoenix-1.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Required Libraries/mysql-connector-java-8.0.17.jar" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="2nd">
+      <change afterPath="$PROJECT_DIR$/DBScript/library (2).sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -136,15 +129,8 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/db/DBConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/DBScript/library (2).sql">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -232,6 +218,11 @@
             <path>
               <item name="library" type="b2602c69:ProjectViewProjectNode" />
               <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="DBScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
               <item name="Required Libraries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,7 +251,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Required Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DBScript" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -278,11 +269,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IT\DEP5\library\DBScript" />
+      <recent name="D:\IT\DEP5\library\Required Libraries" />
       <recent name="D:\IT\DEP5\library\src\cusImages" />
       <recent name="D:\IT\DEP5\library\src\reports" />
       <recent name="D:\IT\DEP5\library\src\style" />
-      <recent name="D:\IT\DEP5\library\src\view" />
-      <recent name="D:\IT\DEP5\library\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -436,7 +427,7 @@
       <workItem from="1589774147691" duration="3639000" />
       <workItem from="1589859288654" duration="2781000" />
       <workItem from="1589909734862" duration="1350000" />
-      <workItem from="1589956663020" duration="2602000" />
+      <workItem from="1589956663020" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="1st com">
       <created>1589989947183</created>
@@ -445,11 +436,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589989947183</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2nd">
+      <created>1589990587267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589990587267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240797000" />
+    <option name="totallyTimeSpent" value="241323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -499,7 +497,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="1st com" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st com" />
+    <MESSAGE value="2nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -798,6 +797,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBScript/library (2).sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
